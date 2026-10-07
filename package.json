@@ -1,0 +1,31 @@
+{
+  "name": "treadle-loom-service",
+  "version": "1.0.0",
+  "description": "离线踏板织机组织展开与跨周期浮长核验后端（API + CLI）",
+  "type": "module",
+  "main": "dist/src/serverMain.js",
+  "bin": {
+    "loom": "dist/src/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test dist/test/*.test.js",
+    "start": "node dist/src/serverMain.js",
+    "demo": "node dist/src/cli.js demo",
+    "cli": "node dist/src/cli.js"
+  },
+  "keywords": [
+    "loom",
+    "textile",
+    "sqlite",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  }
+}
+
+

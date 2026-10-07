@@ -1,0 +1,8 @@
+{
+  "name": "plain-weave-example",
+  "shaftCount": 2,
+  "treadleCount": 2,
+  "threading": [0, 1, 0, 1],
+  "tieUp": [[0], [1]],
+  "treadling": [[0], [1]]
+}
